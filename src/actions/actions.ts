@@ -1,6 +1,4 @@
 'use server'
-
-import { log } from "console"
 import { revalidatePath } from "next/cache"
 // add_todo
 

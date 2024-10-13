@@ -4,7 +4,6 @@ import { useFormState } from 'react-dom'
 
 import React, { useEffect } from 'react'
 import { add_todo } from '@/actions/actions'
-import { stat } from 'fs'
 import { useRef } from 'react'
 import toast from 'react-hot-toast'
 import SubmitButton from './SubmitButton'

@@ -1,6 +1,5 @@
 import React from 'react'
 import Todo from './Todo'
-import { log } from 'console';
 interface Task {
     id: number;
     content: string;

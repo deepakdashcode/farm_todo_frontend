@@ -30,7 +30,7 @@ export default function EditTask({task, placeholder}: {task: Task,placeholder: s
   }, [state])
 
 
-  const handleSubmit = (formData: FormData) => {
+  const handleSubmit = () => {
     const id:number = task.id
     const content:string = value
     const is_completed:boolean = task.is_completed

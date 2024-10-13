@@ -1,11 +1,11 @@
 'use client'
-import { Tooltip } from '@radix-ui/react-tooltip';
+
 import React from 'react'
 import { CiSquareCheck } from 'react-icons/ci';
 import { FiEdit, FiTrash2 } from 'react-icons/fi';
 import { ToolTip } from '../ToolTip';
 import { Modal } from './Modal';
-import { delete_todo, edit_status, edit_todo } from '@/actions/actions';
+import { delete_todo, edit_status } from '@/actions/actions';
 import toast from 'react-hot-toast';
 
 interface Task {
